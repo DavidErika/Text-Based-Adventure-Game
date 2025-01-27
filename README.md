@@ -6,7 +6,6 @@ The game allows players to navigate between rooms, view descriptions, and intera
 
 ## Setup Instructions
 1.Download the template:
-Download game1_template.zip from Learning Central and extract it to a working folder.
 
 2.Install Python:
 Ensure Python 3.x is installed on your system. You can download it from python.org.
@@ -39,7 +38,9 @@ Follow the steps below to build the game incrementally:
 In map.py, complete the "exits" field for each room using the provided map diagram.
 
 2.Implement Core Functions:
+
 In game.py, complete the following functions as instructed:
+
 -display_room: Displays the description of the current room.
 
 -print_menu_line: Prints a menu option for an exit.
@@ -54,6 +55,7 @@ In game.py, complete the following functions as instructed:
 -The template includes doctest comments for most functions. Run the tests after completing each function to verify correctness.
 
 -Use: 'python -m doctest -v game.py'
+
 Fix any issues to ensure all tests pass.
 
 ## How to Play
